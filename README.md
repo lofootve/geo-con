@@ -16,6 +16,6 @@ One of our standout achievements is the development of the MLFC (Multi-Layer Fus
 ## 3.
 
 ## Results
-We are delighted to announce that our efforts have led us to secure <span style="color:yellow"> the runner-up position </span> in the highly competitive 2023 Geo-Data Contest. This achievement stands as a testament to the dedication and ingenuity of our team, as well as the robustness of our AI models in addressing the intricate challenges of offshore oil well event classification.
+We are delighted to announce that our efforts have led us to secure ==the runner-up position== in the highly competitive 2023 Geo-Data Contest. This achievement stands as a testament to the dedication and ingenuity of our team, as well as the robustness of our AI models in addressing the intricate challenges of offshore oil well event classification.
 
 
