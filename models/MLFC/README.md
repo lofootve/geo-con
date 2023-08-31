@@ -1,6 +1,8 @@
 
 # Introduction
-MLFC is based on CNN Model. I try to classify abnomal event using CV. This model uses 5 datas which is P-PDG, P-TPT, T-TPT, P-MON-CKP, T-JUS-CKP for classification. So, we achieve 99% accarancy and 0.98 F1-score with MLFC.
+One of our standout achievements is the development of the MLFC (Multi-Layer Fusion Classifier) model, a Convolutional Neural Network (CNN)-based approach. This model is specifically tailored for classifying abnormal events using Computer Vision (CV) techniques. Leveraging the power of CNNs, MLFC extracts intricate spatial features from visual data to discern patterns related to undesirable events.
+
+The diligent integration of these data sources has yielded remarkable results. The MLFC model boasts an astounding accuracy score of 99.0%, showcasing its ability to effectively identify and classify abnormal events in offshore oil well scenarios. Furthermore, its F1-score of 0.98 underscores its precision and reliability in handling event classification tasks.
 
 # Installment
 - First, Intall requirement file
