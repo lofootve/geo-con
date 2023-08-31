@@ -18,7 +18,7 @@ FILE_PATH = "WRITE YOUR PATH"
 
 # Architecture
 <p align="center">
-<img src="file:///Users/Sik/Desktop/architecter.png">
+<img src="/Users/Sik/Desktop/architecter.png">
 </p>
 
 
