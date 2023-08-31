@@ -25,7 +25,7 @@ Model architecture
 
 
 # Result
-Resultß
-<p align="center">
+Result
+<p align="left">
 <img src="https://github.com/lofootve/geo-con/assets/119021264/a2d6d0c3-455b-4d2f-bcbd-60b2e2f47667">
 </p>
