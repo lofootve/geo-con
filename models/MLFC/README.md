@@ -17,6 +17,7 @@ FILE_PATH = "WRITE YOUR PATH"
 
 
 # Architecture
+Model architecture
 <p align="center">
 <img src="https://github.com/lofootve/geo-con/assets/119021264/e4b9f49c-e109-4818-abce-208961c11ba9">
 </p>
@@ -24,3 +25,7 @@ FILE_PATH = "WRITE YOUR PATH"
 
 
 # Result
+Resultß
+<p align="center">
+<img src="https://github.com/lofootve/geo-con/assets/119021264/a2d6d0c3-455b-4d2f-bcbd-60b2e2f47667">
+</p>
