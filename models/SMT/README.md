@@ -30,4 +30,4 @@ FILE_PATH = "WRITE YOUR PATH"
 
 Model architecture
 
-![image-20230831162937657](C:\Users\khk64\AppData\Roaming\Typora\typora-user-images\image-20230831162937657.png)
+![image-20230831162937657](https://github.com/lofootve/geo-con/assets/119025706/63951cb7-b739-429a-bdea-600535713237)
