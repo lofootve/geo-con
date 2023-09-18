@@ -11,9 +11,11 @@ We proposed three distinct AI models, each tailored to address the complex task 
 ## 1. MLFC (Multi-Layer Fusion Classifier) (Accuracy: 0.99)
 One of our standout achievements is the development of the MLFC (Multi-Layer Fusion Classifier) model, a Convolutional Neural Network (CNN)-based approach. 
 
-## 2.
+## 2. SMT (Stacked Machine-learnings with TabNet) (Accuracy: 0.95)
+This model, while having slightly lower performance, is advantageous for classifying anomalous events due to its shorter training times and minimal resource requirements.
 
-## 3.
+## 3. RT_Tabnet (Real-Time TabNet) (Accuracy: 0.96)
+With just 20 minutes of real-time data from real-world industrial settings, it's possible to utilize this information for anomaly event classification, without being limited to a specific dataset.
 
 ## Results
 We are delighted to announce that our efforts have led us to secure ***the runner-up position*** in the highly competitive 2023 Geo-Data Contest. This achievement stands as a testament to the dedication and ingenuity of our team, as well as the robustness of our AI models in addressing the intricate challenges of offshore oil well event classification.
