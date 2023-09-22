@@ -9,9 +9,9 @@ The diligent integration of these data sources has yielded remarkable results. T
 > pip install -r requirements.txt
 
 
-- Then, write your 3W dataset file path.
+- Then, go to main.py and write your 3W dataset file path.
 ```
-FILE_PATH = "WRITE YOUR PATH"
+FILE_PATH = "WIRTE YOUR 3W FILE PATH"
 ```
 
 
