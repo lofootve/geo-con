@@ -19,5 +19,5 @@ With just 20 minutes of real-time data from real-world industrial settings, it's
 
 ## Results
 We are delighted to announce that our efforts have led us to secure ***the runner-up position*** in the highly competitive 2023 Geo-Data Contest. This achievement stands as a testament to the dedication and ingenuity of our team, as well as the robustness of our AI models in addressing the intricate challenges of offshore oil well event classification.
-
+.
 
