@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
 import LoadData
+import MLFC
 import cv2
 import os
 import gc
@@ -11,6 +12,7 @@ import random
 from glob import glob
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
 
 if __name__ == '__main__':
     FILE_PATH = "WIRTE YOUR 3W FILE PATH"
@@ -25,8 +27,26 @@ if __name__ == '__main__':
     
     y_train_onehot = np.eye(9)[y_train]
     y_valid_onehot = np.eye(9)[y_valid]
-    y_test_onehot = np.eye(9)[y_test]       
+    y_test_onehot = np.eye(9)[y_test]      
+    
+    row = 128
+    col = 256
+    conv_block_list = [4, 8, 16]
+    dense_block_list = [1024, 128, 16] 
+       
+    model = MLFC(row, col, conv_block_list, dense_block_list)
+    model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
+    callback = tf.keras.callbacks.EarlyStopping(monitor='loss', patience=3, restore_best_weights=True)
+
+    history = model.fit([x1, x2, x3, x4, x5],
+                        y_train_onehot,
+                        epochs=100,
+                        batch_size = 64,
+                        callbacks=[callback],
+                        validation_data=([v1, v2, v3, v4, v5], y_valid_onehot))
     
     
+    y_pred = model.predict([t1, t2, t3, t4, t5])
+    print(classification_report(y_test, list(np.argmax(y_pred, axis=1))))
   
     
