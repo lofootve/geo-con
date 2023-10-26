@@ -15,7 +15,8 @@ FILE_PATH = "WIRTE YOUR 3W FILE PATH"
 ```
 
 
-- Finally, run jupyter notebook file
+- Finally, run main.py
+> python3 main.py
 
 
 # Architecture
